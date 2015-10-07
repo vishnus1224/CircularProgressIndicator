@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressIndicator">
+        <attr name="progressColor" format="color|reference"/>
+        <attr name="backgroundColor" format="color|reference"/>
+        <attr name="strokeWidth" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="maxProgress" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color|reference"/>
+    </declare-styleable>
+</resources>
