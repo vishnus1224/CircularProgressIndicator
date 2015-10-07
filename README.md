@@ -41,3 +41,7 @@ View declaration in layout xml file: Specify the view width and height as per re
         android:layout_height="300dp" />
 ```
 
+To animate progress to a value, call the `animateProgress(long duration, int finalValue)` function on the view with the animation duration in milliseconds and the final progress value.
+
+e.g. To set the progress to 80 with an animation duration of half a second, call 
+```animateProgress(500, 80)```.
