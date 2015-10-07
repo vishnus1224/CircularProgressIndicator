@@ -27,7 +27,7 @@ Give a name to the namespace. In the code below, it is named "custom".
 
 `xmlns:custom="http://schemas.android.com/apk/res-auto"`
 
-View declaration in layout xml file: Specify the view and height as per requirements.
+View declaration in layout xml file: Specify the view width and height as per requirements.
 ```
 <com.vishnus1224.circularprogressindicator.CircularProgressIndicator
         custom:strokeWidth="50"
