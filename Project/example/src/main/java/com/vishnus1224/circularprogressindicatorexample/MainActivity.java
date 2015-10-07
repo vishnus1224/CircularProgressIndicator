@@ -5,12 +5,18 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.vishnus1224.circularprogressindicator.CircularProgressIndicator;
+
 public class MainActivity extends ActionBarActivity {
+
+    private CircularProgressIndicator circularProgressIndicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        circularProgressIndicator = (CircularProgressIndicator) findViewById(R.id.circularProgress);
     }
 
 }

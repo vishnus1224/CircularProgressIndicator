@@ -75,7 +75,7 @@ public class CircularProgressIndicator extends View {
     /**
      * Maximum possible progress;
      */
-    private int maxProgress = 100;
+    private int maxProgress;
 
     /**
      * For showing the total progress.
@@ -244,6 +244,7 @@ public class CircularProgressIndicator extends View {
         //set the minimum dimensions.
         setMinimumWidth((defaultRadius + strokeWidth) * 2);
         setMinimumHeight((defaultRadius + strokeWidth) * 2);
+        setProgress(progress);
 
         initializePaints();
 
