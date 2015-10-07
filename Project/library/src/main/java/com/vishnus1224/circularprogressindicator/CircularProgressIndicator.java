@@ -75,7 +75,7 @@ public class CircularProgressIndicator extends View {
     /**
      * Maximum possible progress;
      */
-    private int maxProgress;
+    private int maxProgress = 100;
 
     /**
      * For showing the total progress.
