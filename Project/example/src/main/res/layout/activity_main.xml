@@ -20,4 +20,20 @@
         android:layout_width="300dp"
         android:layout_height="300dp" />
 
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/circularProgress"
+        android:text="Increase"
+        android:id="@+id/increaseProgressButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/circularProgress"
+        android:text="Decrease"
+        android:id="@+id/decreaseProgressButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>
