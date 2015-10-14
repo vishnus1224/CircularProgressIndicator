@@ -5,6 +5,14 @@ Displays the progress in a circle with animation along with the progress percent
 
 ![](https://github.com/vishnus1224/CircularProgressIndicator/blob/master/Project/demo/demo.gif)
 
+
+#Sample Usage
+
+Add following line to the build.gradle file in order to use the library.
+```
+compile 'com.vishnus1224.circularprogressindicator:library:1.0.1'
+```
+
 Fully customizable in xml with the following attributes:
 
 ```
@@ -20,8 +28,6 @@ Fully customizable in xml with the following attributes:
 ```
 
 For using these, check the example project or sample code below.
-
-#Sample Usage
 
 Give a name to the namespace. In the code below, it is named "custom".
 
